@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* main.css */
+html { overflow-y: scroll; }
+body { margin:0; font-family:Tahoma; background-color:#000;  }
+p { margin-top:0px; }
+
+a { color:#FF6; }
+a:hover { color:#FFC; }
+
+h1 { margin-top:0px; color:#FFF }
+h2 { margin-top:0px; }
+
+#page { color:#FFF; background-image:url("img/pagebg.gif"); }
+
+.cbox { width:250px; background-color:#000; height:250px; float:left; margin:10px; padding:10px; }
+.cbar { background-color:#000; width:500px; margin:10px; padding:10px; }
+
+#header { background-color:#111; padding-top: }
+#header_inner { width:990px; margin:0 auto; padding-top:20px; }
+
+#nav {
+	list-style:none;
+	float:left;
+	margin-left:290px;
+	margin-top:0;
+	padding:0;
+	width:710px;
+}
+#nav li { display:inline; float:left;  }
+#nav span { display:none; }
+
+.nav_home { display:block; width:183px; height:94px; background-image:url("img/nav.gif"); background-position: 0px 0px; }
+.nav_home:hover { background-position: 0px -94px; }
+.nav_showroom { display:block; width:168px; height:94px; background-image:url("img/nav.gif"); background-position: -183px 0px; }
+.nav_showroom:hover { background-position: -183px -94px; }
+.nav_services { display:block; width:174px; height:94px; background-image:url("img/nav.gif"); background-position: -351px 0px; }
+.nav_services:hover { background-position: -351px -94px; }
+.nav_contact { display:block; width:172px; height:94px; background-image:url("img/nav.gif"); background-position: -525px 0px; }
+.nav_contact:hover { background-position: -525px -94px; }
+
+#content { width:990px; margin:0 auto; font-size:14px; line-height:22px; padding:10px 0; letter-spacing:1px; color:#f0d595; }
+
+#footer { font-size:12px; color:#FFF; padding:10px 30px; margin:0 auto; text-align:center; background-color:#2b1c0e; }
+#footer p {margin:0}
+#footer a { text-decoration:none; color:#FFF; }
+#footer a:hover { text-decoration:none; color:#FF9; text-decoration:underline; }
+.biglinks { width:430px; margin:0 auto; text-align:center; }
+.biglinks a { font-size:18px; width:100px; padding:3px; display:block; float:left; }
+.biglinks a:hover { text-decoration:underline; }
+
+.big { font-size:72px; font-weight:bold; letter-spacing:-7px; text-transform:uppercase; line-height:66px; }
+.slogan { margin-bottom:8px; }
+.antifloat { clear:both; }
+
+.shadow { text-shadow: 0.1em 0.1em #000; color:#f0d595; }
+.polaroid { border:#FFF 10px solid; box-shadow: 3px 3px 4px #000; }
+
+.column { width: 325px; float:left; font-size:12px; letter-spacing:0px; }
+.column p { padding:10px; }
+
+#parchment { background-image:url("img/parchment.png"); background-repeat:repeat-y; color:#000; width:942px; padding:15px; }
+
+#navbg { background-image:url("img/navbg.gif"); height:94px; }
+#headerbg { background-image:url(img/headerbg.jpg); background-position: center top; background-repeat:no-repeat; height:171px;}
+
+#headerbg h1 { color:#FFF; text-shadow: 0.1em 0.1em #000; text-align:right; position:absolute; bottom:0px; right:0px; padding:0px; margin-bottom:5px; }
+
+img { border:0; } 
+
+.number { color:#FF6; text-shadow: 0.1em 0.1em #000; font-size:40px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-align:right; position:absolute; top:0px; right:0px; padding:0px; width:500px; }
+
+.gallery_top { display:block; float:left; height:260px; width:300px; background-repeat:no-repeat; background-position: center center; text-decoration:none; color:#FFF; 
+	font-size:26px; margin:3px; 
+	text-transform:uppercase;
+}
+.gallery_top_bg { background-color:#000; width:918px; padding:6px; margin:10px auto; }
+.gallery_top div { background-color:rgba(0,0,0,0.5); padding:4px;}
+.gallery_photos { border:1px #FFF solid; background-color:#FFF; }
+.gallery_photos:hover { border:1px #FF6 solid; }
+.featured { display:block; float:left; height:220px; width:220px; background-repeat:no-repeat; background-position: center center; text-decoration:none; color:#FFF; margin:0;
+}
+.fb-like-box { background-color:#FFF; }
+.fancy { list-style:none; border-left:2px solid #2b1c0e; padding-left:10px; color:#f0d595; } 
+.thumb { margin:10px; border:0px; }
+#services { color:#f0d595; text-shadow: 0.1em 0.1em #000; }
+#services p { width:700px; }
+#colors { border:0; margin:5px; }
+
+.brown { background-color:#2b1c0e; color:#f0d595; border:1px #f0d595 solid; font-family:Tahoma; }

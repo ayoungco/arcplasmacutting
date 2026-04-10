@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "APC Admin"  
+AuthUserFile .htpasswd
+require valid-user
